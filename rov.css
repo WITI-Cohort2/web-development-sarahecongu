@@ -1,0 +1,79 @@
+/*The  universal selector is used to reset */
+/* 2022/009/DSCSE */
+*{
+border: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: slategray;
+}
+main{
+    display: grid;
+    grid-template-areas:
+    "one one one two"
+    "three three three three"
+    "four four four three "
+    "five five five five";
+    justify-content: space-evenly;
+    
+}
+
+.one{
+    background-color: goldenrod;
+    margin: 90px;
+    padding: 30px;
+    border-radius: 50px;
+    border: 1px dashed black;
+    text-align: center;
+    font-size: 30px;
+    grid-area: "one";
+    width: 500px;
+
+}
+.two{
+    background-color: blue;
+    margin: 300px;
+    padding: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    text-align: center; 
+    font-size: 30px; 
+    grid-area: "two";
+    width: 500px;
+}
+.three{
+    background-color: purple;
+    margin: 300px;
+    padding: 50px;
+    border-radius: 50px;
+    border: 2px dotted black;
+    text-align: center; 
+    font-size: 30px;
+    grid-area: "three"; 
+    width: 500px;
+     
+
+}
+.four{
+    background-color: peru;
+    margin: 300px;
+    padding: 50px;
+    border-radius: 50px;
+    border: 2px inset black;
+    text-align: center; 
+    font-size: 30px;
+    grid-area: "four";  
+    width: 500px; 
+}
+.five{
+    
+    background-color: grey;
+    margin: 300px;
+    padding: 50px;
+    border-radius: 50px;
+    border: 2px inset black;
+    text-align: center; 
+    font-size: 30px; 
+    grid-area: "five";
+    width: 500px;
+}
